@@ -45,7 +45,7 @@ ordu inguru). Kontuz ibili batez ere udan gehiegi hartzitu ez dadin.
 ## Egosi
 
 Labea berotu 250ºC-tan. Lehenengo 10 minutuetan beheko erresistentzia
-bakarrik piztu, gero bi erresistentziak piztu ditut eta 10 minuturo
+bakarrik piztu, gero bi erresistentziak piztu eta 10 minuturo
 tenperatura 10ºC jaitsi 180ºC-ra jaitsi arte. Ogi honek guztiz
 egosteko ordu bat behar du gutxi-gorabehera.
 
