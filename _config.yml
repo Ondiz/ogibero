@@ -1,4 +1,4 @@
 name: Ogibero
 description: Errezeta askeak
 markdown: kramdown
-permalink: /ogibero/errezetak/:year/:month/:day/:title
+permalink: errezetak/:year/:month/:day/:title
