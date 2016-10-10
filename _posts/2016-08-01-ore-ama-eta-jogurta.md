@@ -49,4 +49,4 @@ bakarrik piztu, gero bi erresistentziak piztu eta 10 minuturo
 tenperatura 10ºC jaitsi 180ºC-ra jaitsi arte. Ogi honek guztiz
 egosteko ordu bat behar du gutxi-gorabehera.
 
-![Ore ama eta jogurt ogia]({{ site.url }}/ogibero/irudiak/jogurt.jpg)
+![Ore ama eta jogurt ogia]({{ site.github.url }}/irudiak/jogurt.jpg)
