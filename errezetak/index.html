@@ -6,8 +6,8 @@ title: Errezetak
 	<ul class="posts">
 	  {% for post in site.posts %}
 	    <li><span>
-		{% assign m = page.date | date: "%-m" %}
-		{{ post.date | date: "%-d" }}
+		{{ post.date | date: "%Yko" }}
+		{% assign m = post.date | date: "%-m" %}
 		{% case m %}
 		  {% when '1' %}urtarrilak
 		  {% when '2' %}otsailak
@@ -22,7 +22,7 @@ title: Errezetak
 		  {% when '11' %}azaroak
 		  {% when '12' %}abenduak
 		{% endcase %}
-		{{ post.date | date: "%Yko" }}
+		{{ post.date | date: "%-d" }}
 		</span> » <a href="{{ post.url | prepend: site.github.url }}"" title="{{ post.title }}">{{ post.title }}</a></li>
 	  {% endfor %}
 	</ul>
