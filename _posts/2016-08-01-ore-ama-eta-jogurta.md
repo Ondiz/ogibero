@@ -39,7 +39,7 @@ kalkulatu 2-3 ordu.
 
 ## Forma eman eta hartzitu
 
-Oreari forma eman eta bannetoian sartu da bigarren fermentaziorako (3
+Oreari forma eman eta bannetoian sartu bigarren fermentaziorako (3
 ordu inguru). Kontuz ibili batez ere udan gehiegi hartzitu ez dadin.
 
 ## Egosi
