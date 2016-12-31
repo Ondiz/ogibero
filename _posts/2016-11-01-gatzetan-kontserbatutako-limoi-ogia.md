@@ -9,8 +9,8 @@ date: 2016-11-01
 * Ore ama:
   
   * 150 g ur
-	* 150 g zekale edo gari irin integral
-	* Ore ama koilarakada bat
+  * 150 g zekale edo gari irin integral
+  * Ore ama koilarakada bat
 
 * 450 g irin zuri
 
