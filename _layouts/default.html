@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>{{ page.title }}</title>
+		<!-- link to main stylesheet -->
+		<link rel="stylesheet" type="text/css" href="{{ site.github.url }}/css/main.css">
+	</head>
+	<body>
+	  <nav>
+    	    <!-- <ul> -->
+            <!--   <li><a href="{{ site.github.url }}/">Hasiera</a></li> -->
+	    <!--   <li><a href="{{ site.github.url }}/errezetak">Errezetak</a></li> -->
+	    <!--   <li><a href="{{ site.github.url }}/oreAma">Ore ama</a></li> -->
+	    <!--   <li><a href="{{ site.github.url }}/baliabideak">Baliabideak</a></li> -->
+	    <!--   <li><a href="{{ site.github.url }}/faq">FAQ</a></li> -->
+	    <!-- </ul> -->
+	  
+	  <ul>
+	    {% assign navigation_pages = site.html_pages | sort: 'navigation_weight' %}
+	    {% for p in navigation_pages %}
+	    {% if p.navigation_weight %}
+            <li>
+              <a href="{{ p.url | prepend: site.github.url }}" {% if  p.url == page.url %}class="active"{% endif %}>
+		{{ p.title }}
+              </a>
+            </li>
+	    {% endif %}
+	    {% endfor %}
+	  </ul>
+	  </nav>
+
+	  <div class="container">
+	    
+	    {{ content }}
+	    
+	  </div>
+
+	  <footer>
+	    <a rel="license"
+	       href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative
+									       Commons License" style="border-width:0"
+									  src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png"
+									  /></a>
+	  </footer>
+		
+		<a href="https://github.com/Ondiz/ogibero/tree/gh-pages"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/365986a132ccd6a44c23a9169022c0b5c890c387/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f7265645f6161303030302e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png"></a>
+
+	</body>
+</html>
