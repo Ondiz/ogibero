@@ -1,4 +1,17 @@
+# -*- mode: markdown ; -*-
+
+# Orriaren datuak
+
 name: Ogibero
 description: Errezeta askeak
+url: ondiz.github.io/ogibero
+author: Ondiz Zarraga
+
+# Idazteko konfigurazioa
+
 markdown: kramdown
 
+# Erabilitako gemak
+
+gems:
+- jekyll-feed
