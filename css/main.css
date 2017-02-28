@@ -47,9 +47,16 @@ ul.posts li {
     list-style: none;
 }
 
+/* Hasierako orrian dauden argazkiak kudeatzeko */
 .imageContainer {
     position: relative;
 }
 .imageContainer div {
     position: absolute;
+}
+
+/* Irudiak erdian jartzeko */
+
+.center {
+  text-align: center;
 }

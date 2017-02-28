@@ -4,12 +4,8 @@ title: Ogibero
 navigation_weight: 1 
 ---
 
+{:.center}
 ![]({{ site.github.url }}/irudiak/logo.png)
-
-# Kaixo!
-
-Ongi etorri Ogiberora, honi buruz gehiago jakin nahi baduzu sar zaitez
-[hemen]({{ site.github.url }}/faq)
 
 <div class="imageContainer">
 {% for post in site.posts limit:5 %}
@@ -17,3 +13,7 @@ Ongi etorri Ogiberora, honi buruz gehiago jakin nahi baduzu sar zaitez
 {% endfor %}
 </div>
 
+Proiektu honi buruz gehiago jakin nahi baduzu sar zaitez
+[hemen]({{ site.github.url }}/faq)
+
+<br/>
