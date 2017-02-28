@@ -2,7 +2,10 @@
 layout: post
 title: "Gatzetan kontserbatutako limoizko ogia"
 date: 2016-11-01
+image: ../irudiak/limoi.jpg
 ---
+
+{{ post.image | replace: '..', site.github.url }}
 
 ##  Osagaiak
 
@@ -50,5 +53,4 @@ erresistentziak piztu eta 10 minuturo tenperatura 10&deg;C jaitsi
 180&deg;C-ra iritsi arte. Ogi honek guztiz egosteko ordu bat behar du
 gutxi-gorabehera.
 
-<img src="{{ site.github.url
-}}/irudiak/limoi.jpg" alt="Gatzetan kontserbatutako limoizko ogia" style="width:400px;"/>
+![Gatzetan kontserbatutako limoizko ogia]({{ site.github.url }}/irudiak/limoi.jpg){:width="400px"}

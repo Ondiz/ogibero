@@ -2,7 +2,10 @@
 layout: post
 title: "Ore ama eta jogurt ogia"
 date: 2016-08-01
+image: ../irudiak/jogurt.jpg
 ---
+
+{{ post.image | replace: '..', site.github.url }}
 
 ##  Osagaiak
 
@@ -49,5 +52,5 @@ bakarrik piztu, gero bi erresistentziak piztu eta 10 minuturo
 tenperatura 10ºC jaitsi 180ºC-ra jaitsi arte. Ogi honek guztiz
 egosteko ordu bat behar du gutxi-gorabehera.
 
-<img src="{{ site.github.url
-}}/irudiak/jogurt.jpg" alt="Ore ama eta jogurt ogia" style="width:400px;"/>
+
+![Ore ama eta jogurt ogia]({{ site.github.url }}/irudiak/jogurt.jpg){:width="400px"}
