@@ -2,10 +2,8 @@
 layout: post
 title: "Gatzetan kontserbatutako limoizko ogia"
 date: 2016-11-01
-image: ../irudiak/limoi.jpg
+image: /irudiak/limoi.jpg
 ---
-
-{{ post.image | replace: '..', site.github.url }}
 
 ##  Osagaiak
 

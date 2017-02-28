@@ -13,8 +13,7 @@ Ongi etorri Ogiberora, honi buruz gehiago jakin nahi baduzu sar zaitez
 
 <div class="imageContainer">
 {% for post in site.posts limit:5 %}
-<a href="{{ site.github.url }}{{ post.url }}" title="{{post.title}}"><img src="{{ post.image
-}}" style="height: 280px" align="center" /></a>
+<a href="{{ site.github.url }}{{ post.url }}" title="{{post.title}}"><img src="{{ post.image| prepend:site.github.url }}" style="height: 280px" align="center" /></a>
 {% endfor %}
 </div>
 
