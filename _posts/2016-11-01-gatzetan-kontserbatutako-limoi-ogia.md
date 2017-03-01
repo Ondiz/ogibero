@@ -52,3 +52,7 @@ erresistentziak piztu eta 10 minuturo tenperatura 10&deg;C jaitsi
 gutxi-gorabehera.
 
 ![Gatzetan kontserbatutako limoizko ogia]({{ site.github.url }}/irudiak/limoi.jpg){:.post-image}
+
+<!-- Local Variables: -->
+<!-- ispell-local-dictionary: "euskera"-->
+<!-- End: -->

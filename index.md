@@ -16,3 +16,7 @@ Proiektu honi buruz gehiago jakin nahi baduzu sar zaitez
 [hemen]({{ site.github.url }}/faq)
 
 <br/>
+
+<!-- Local Variables: -->
+<!-- ispell-local-dictionary: "euskera"-->
+<!-- End: -->

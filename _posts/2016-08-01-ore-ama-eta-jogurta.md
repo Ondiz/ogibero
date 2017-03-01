@@ -51,3 +51,7 @@ tenperatura 10ºC jaitsi 180ºC-ra jaitsi arte. Ogi honek guztiz
 egosteko ordu bat behar du gutxi-gorabehera.
 
 ![Ore ama eta jogurt ogia]({{ site.github.url }}/irudiak/jogurt.jpg){:.post-image}
+
+<!-- Local Variables: -->
+<!-- ispell-local-dictionary: "euskera"-->
+<!-- End: -->
