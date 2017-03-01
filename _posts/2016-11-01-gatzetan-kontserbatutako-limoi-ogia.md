@@ -51,4 +51,4 @@ erresistentziak piztu eta 10 minuturo tenperatura 10&deg;C jaitsi
 180&deg;C-ra iritsi arte. Ogi honek guztiz egosteko ordu bat behar du
 gutxi-gorabehera.
 
-![Gatzetan kontserbatutako limoizko ogia]({{ site.github.url }}/irudiak/limoi.jpg){:width="400px"}
+![Gatzetan kontserbatutako limoizko ogia]({{ site.github.url }}/irudiak/limoi.jpg){:.post-image}

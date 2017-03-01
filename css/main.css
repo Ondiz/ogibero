@@ -1,9 +1,9 @@
 body {
+    font-family: 'Fira Sans';
     margin: 60px auto;
     width: 70%;
 }
 nav ul, footer ul {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
     padding: 0px;
     list-style: none;
     font-weight: bold;
@@ -26,7 +26,6 @@ a.active {
 
 h1 {
     font-size: 3em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
 p {
     font-size: 1.5em;
@@ -37,6 +36,8 @@ footer {
     border-top: 1px solid #d5d5d5;
     font-size: .8em;
 }
+
+/* Listak */
 
 ul.posts { 
     margin: 20px auto 40px; 
@@ -55,8 +56,22 @@ ul.posts li {
     position: absolute;
 }
 
-/* Irudiak erdian jartzeko */
+.preview-image {
+    height: 280px;
+}
 
-.center {
-  text-align: center;
+/* Tituluaren formatua */
+
+.logo {
+    display: block;
+    margin: auto;
+    width: 50%;
+}
+
+/* Errezetako irudien formatua */
+
+.post-image {
+    display: block;
+    margin: auto;
+    width: 30%;
 }

@@ -4,12 +4,11 @@ title: Ogibero
 navigation_weight: 1 
 ---
 
-{:.center}
-![]({{ site.github.url }}/irudiak/logo.png)
+![]({{ site.github.url }}/irudiak/logo.png){:.logo}
 
 <div class="imageContainer">
 {% for post in site.posts limit:5 %}
-<a href="{{ site.github.url }}{{ post.url }}" title="{{post.title}}"><img src="{{ post.image| prepend:site.github.url }}" style="height: 280px" align="center" /></a>
+<a href="{{ site.github.url }}{{ post.url }}" title="{{post.title}}"><img src="{{ post.image| prepend:site.github.url }}" class="preview-image" align="center" /></a>
 {% endfor %}
 </div>
 
