@@ -75,3 +75,9 @@ ul.posts li {
     margin: auto;
     width: 30%;
 }
+
+/* CC */
+
+.license{
+    float:right;
+}
