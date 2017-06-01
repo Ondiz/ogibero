@@ -7,7 +7,7 @@ navigation_weight: 1
 ![]({{ site.github.url }}/irudiak/logo.png){:.logo}
 
 <div class="imageContainer">
-{% for post in site.posts limit:5 %}
+{% for post in site.posts limit:6 %}
 <a href="{{ site.github.url }}{{ post.url }}" title="{{post.title}}"><img src="{{ post.image| prepend:site.github.url }}" class="preview-image" align="center" /></a>
 {% endfor %}
 </div>
