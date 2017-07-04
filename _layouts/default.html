@@ -12,6 +12,7 @@
 		<link rel="shortcut icon" type="image/x-icon" href="{{ site.github.url }}/favicon.ico" >
 	</head>
 	<body>
+	  <div class="fixed-nav-bar">
 	  <nav>
 	  <ul>
 	    {% assign navigation_pages = site.html_pages | sort: 'navigation_weight' %}
@@ -26,6 +27,7 @@
 	    {% endfor %}
 	  </ul>
 	  </nav>
+	  </div>
 	    
 	  <div class="container">
 	    {{ content }}

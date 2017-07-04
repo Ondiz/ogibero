@@ -81,3 +81,18 @@ ul.posts li {
 .icons{
     float:right;
 }
+
+/* Nabigazio barra finkatu */
+
+.fixed-nav-bar {
+  position: fixed;
+  top: 10px;
+  left: 60px auto;
+  z-index: 100;
+  width: 100%;
+  background-color: white;
+}
+
+
+
+
